@@ -1,0 +1,31 @@
+{
+  "name": "@saber2pr/pv-count",
+  "version": "0.0.1",
+  "description": "pv counter.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Saber2pr/pv-count.git"
+  },
+  "author": "saber2pr",
+  "license": "ISC",
+  "files": [
+    "lib/core/*",
+    "lib/index.*"
+  ],
+  "main": "./lib/index.js",
+  "scripts": {
+    "start": "tsc --watch",
+    "dev": "rollup -c --watch"
+  },
+  "keywords": [
+    "pv",
+    "jsonp",
+    "busuanzi"
+  ],
+  "devDependencies": {
+    "typescript": "^3.4.3",
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0",
+    "rollup-plugin-node-resolve": "^4.0.0"
+  }
+}
